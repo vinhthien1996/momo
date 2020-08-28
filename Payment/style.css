@@ -1,0 +1,134 @@
+:root{
+    --font:'Roboto', sans-serif;
+    --mau1:#cad2c5;
+    --mau2:#84a98c;
+    --mau3:#52796f;
+    --mau4:#354f52;
+    --mau5:#2f3e46;
+    --font14px: 14px;
+    --font24px:24px;
+    --font16px:16px;
+}
+
+.img-scan {
+    padding-top: 20px;
+    width: 70%;
+}
+
+.bg-4tcn {
+    background: var(--mau4);
+}
+
+/* PAYMENT */
+
+.wrap-payment-info {
+    margin-top: 25px;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.menu-payment {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.title-source {
+    color: var(--mau4);
+    display: inline-block;
+}
+.wrap-confirm-payment {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+}
+.confirm-payment {
+    display: inline-block;
+    background: var(--mau4);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    transition: background 1s;
+}
+
+.confirm-payment a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.confirm-payment:hover {
+    background: var(--mau3);
+}
+
+.confirm-payment:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cancel-payment {
+    display: inline-block;
+    background: var(--mau1);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px 3px;
+    transition: background 1s;
+}
+
+.cancel-payment a {
+    color: var(--mau4);
+    text-decoration: none;
+}
+
+.cancel-payment:hover {
+    background: var(--mau2);
+}
+.cancel-payment:hover a {
+    text-decoration: none;
+    color: var(--mau4);
+}
+
+/* PAYMENT SUCCESS */
+
+.img-payment {
+    padding-top: 20px;
+    width: 30%;
+}
+
+.wrap-payment-success {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0px 0px 5px 0px;
+    font-size: 18px;
+    color: var(--mau4);
+}
+
+.wrap-payment-download {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+}
+
+/* END PAYMENT SUCCESS */
+
+/* ERROR 404 */
+
+.wrap-404 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-content-404 {
+    text-align: center;
+}
+
+.content-404 {
+    font-size: 24px;
+    padding: 20px;
+}
